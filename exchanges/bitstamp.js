@@ -139,8 +139,10 @@ Trader.prototype.cancelOrder = function(order, callback) {
 Trader.prototype.getTrades = function(since, callback, descending) {
   var args = _.toArray(arguments);
   var process = function(err, trades) {
-    if(err)
+    if(err) {
+      console.log(err);
       return this.retry(this.getTrades, args);
+    }
 
     var result = _.map(trades, t => {
       return {
