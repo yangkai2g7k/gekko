@@ -156,10 +156,7 @@ Trader.prototype.getTrades = function(since, callback, descending) {
     callback(null, result.reverse());
   }.bind(this);
 
-  if(since)
-    this.bitstamp.transactions(this.market, {time: 'day'}, process);
-  else
-    this.bitstamp.transactions(this.market, process);
+  this.bitstamp.transactions(this.market, process);
 }
 
 module.exports = Trader;
