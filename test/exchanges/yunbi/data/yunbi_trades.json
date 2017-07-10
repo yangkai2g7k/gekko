@@ -1,0 +1,502 @@
+[
+  {
+    "id": 35986808,
+    "price": "17050.0",
+    "volume": "0.058",
+    "funds": "988.9",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:52:18Z",
+    "at": 1499723538,
+    "side": "down"
+  },
+  {
+    "id": 35986807,
+    "price": "17050.1",
+    "volume": "0.174",
+    "funds": "2966.7174",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:52:18Z",
+    "at": 1499723538,
+    "side": "up"
+  },
+  {
+    "id": 35986800,
+    "price": "17050.1",
+    "volume": "0.226",
+    "funds": "3853.3226",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:52:16Z",
+    "at": 1499723536,
+    "side": "down"
+  },
+  {
+    "id": 35986799,
+    "price": "17056.0",
+    "volume": "0.006",
+    "funds": "102.336",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:52:16Z",
+    "at": 1499723536,
+    "side": "down"
+  },
+  {
+    "id": 35986797,
+    "price": "17100.0",
+    "volume": "0.2322",
+    "funds": "3970.62",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:52:15Z",
+    "at": 1499723535,
+    "side": "up"
+  },
+  {
+    "id": 35986788,
+    "price": "17090.0",
+    "volume": "1.0",
+    "funds": "17090.0",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:52:13Z",
+    "at": 1499723533,
+    "side": "down"
+  },
+  {
+    "id": 35986518,
+    "price": "17110.0",
+    "volume": "0.917",
+    "funds": "15689.87",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:50:22Z",
+    "at": 1499723422,
+    "side": "up"
+  },
+  {
+    "id": 35986512,
+    "price": "17110.0",
+    "volume": "0.083",
+    "funds": "1420.13",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:50:18Z",
+    "at": 1499723418,
+    "side": "up"
+  },
+  {
+    "id": 35986121,
+    "price": "17056.0",
+    "volume": "0.0584",
+    "funds": "996.0704",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:47:06Z",
+    "at": 1499723226,
+    "side": "up"
+  },
+  {
+    "id": 35986103,
+    "price": "17056.0",
+    "volume": "0.0121",
+    "funds": "206.3776",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:56Z",
+    "at": 1499723216,
+    "side": "down"
+  },
+  {
+    "id": 35986101,
+    "price": "17106.0",
+    "volume": "0.677",
+    "funds": "11580.762",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:52Z",
+    "at": 1499723212,
+    "side": "up"
+  },
+  {
+    "id": 35986098,
+    "price": "17106.0",
+    "volume": "1.172",
+    "funds": "20048.232",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:50Z",
+    "at": 1499723210,
+    "side": "up"
+  },
+  {
+    "id": 35986087,
+    "price": "17106.0",
+    "volume": "0.751",
+    "funds": "12846.606",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:47Z",
+    "at": 1499723207,
+    "side": "down"
+  },
+  {
+    "id": 35985961,
+    "price": "17310.99",
+    "volume": "0.0576",
+    "funds": "997.113024",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:11Z",
+    "at": 1499723171,
+    "side": "up"
+  },
+  {
+    "id": 35985960,
+    "price": "17254.0",
+    "volume": "0.0001",
+    "funds": "1.7254",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:11Z",
+    "at": 1499723171,
+    "side": "down"
+  },
+  {
+    "id": 35985900,
+    "price": "17304.0",
+    "volume": "0.3449",
+    "funds": "5968.1496",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:02Z",
+    "at": 1499723162,
+    "side": "up"
+  },
+  {
+    "id": 35985890,
+    "price": "17303.0",
+    "volume": "0.0388",
+    "funds": "671.3564",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:00Z",
+    "at": 1499723160,
+    "side": "up"
+  },
+  {
+    "id": 35985889,
+    "price": "17294.84",
+    "volume": "0.0023",
+    "funds": "39.778132",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:46:00Z",
+    "at": 1499723160,
+    "side": "up"
+  },
+  {
+    "id": 35985873,
+    "price": "17096.44",
+    "volume": "0.0581",
+    "funds": "993.303164",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:54Z",
+    "at": 1499723154,
+    "side": "down"
+  },
+  {
+    "id": 35985834,
+    "price": "17100.0",
+    "volume": "0.0003",
+    "funds": "5.13",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:42Z",
+    "at": 1499723142,
+    "side": "down"
+  },
+  {
+    "id": 35985833,
+    "price": "17105.0",
+    "volume": "0.0118",
+    "funds": "201.839",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:42Z",
+    "at": 1499723142,
+    "side": "up"
+  },
+  {
+    "id": 35985832,
+    "price": "17105.0",
+    "volume": "0.283",
+    "funds": "4840.715",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:42Z",
+    "at": 1499723142,
+    "side": "up"
+  },
+  {
+    "id": 35985827,
+    "price": "17100.0",
+    "volume": "0.185",
+    "funds": "3163.5",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:37Z",
+    "at": 1499723137,
+    "side": "down"
+  },
+  {
+    "id": 35985826,
+    "price": "17294.84",
+    "volume": "0.0096",
+    "funds": "166.030464",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:35Z",
+    "at": 1499723135,
+    "side": "up"
+  },
+  {
+    "id": 35985825,
+    "price": "17294.83",
+    "volume": "0.0483",
+    "funds": "835.340289",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:35Z",
+    "at": 1499723135,
+    "side": "up"
+  },
+  {
+    "id": 35985823,
+    "price": "17100.0",
+    "volume": "3.0",
+    "funds": "51300.0",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:34Z",
+    "at": 1499723134,
+    "side": "up"
+  },
+  {
+    "id": 35985821,
+    "price": "17100.0",
+    "volume": "0.49",
+    "funds": "8379.0",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:31Z",
+    "at": 1499723131,
+    "side": "up"
+  },
+  {
+    "id": 35985817,
+    "price": "17100.0",
+    "volume": "0.9794",
+    "funds": "16747.74",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:29Z",
+    "at": 1499723129,
+    "side": "up"
+  },
+  {
+    "id": 35985816,
+    "price": "17100.0",
+    "volume": "0.2",
+    "funds": "3420.0",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:29Z",
+    "at": 1499723129,
+    "side": "up"
+  },
+  {
+    "id": 35985815,
+    "price": "17100.0",
+    "volume": "0.0584",
+    "funds": "998.64",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:29Z",
+    "at": 1499723129,
+    "side": "up"
+  },
+  {
+    "id": 35985814,
+    "price": "17100.0",
+    "volume": "1.7622",
+    "funds": "30133.62",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:29Z",
+    "at": 1499723129,
+    "side": "up"
+  },
+  {
+    "id": 35985810,
+    "price": "17100.0",
+    "volume": "0.2378",
+    "funds": "4066.38",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:25Z",
+    "at": 1499723125,
+    "side": "up"
+  },
+  {
+    "id": 35985809,
+    "price": "17100.0",
+    "volume": "0.2",
+    "funds": "3420.0",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:25Z",
+    "at": 1499723125,
+    "side": "up"
+  },
+  {
+    "id": 35985808,
+    "price": "17100.0",
+    "volume": "0.0292",
+    "funds": "499.32",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:25Z",
+    "at": 1499723125,
+    "side": "down"
+  },
+  {
+    "id": 35985807,
+    "price": "17100.1",
+    "volume": "0.003",
+    "funds": "51.3003",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:25Z",
+    "at": 1499723125,
+    "side": "up"
+  },
+  {
+    "id": 35985806,
+    "price": "17100.1",
+    "volume": "0.9522",
+    "funds": "16282.71522",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:23Z",
+    "at": 1499723123,
+    "side": "down"
+  },
+  {
+    "id": 35985805,
+    "price": "17102.0",
+    "volume": "0.0028",
+    "funds": "47.8856",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:23Z",
+    "at": 1499723123,
+    "side": "up"
+  },
+  {
+    "id": 35985804,
+    "price": "17102.0",
+    "volume": "1.0972",
+    "funds": "18764.3144",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:21Z",
+    "at": 1499723121,
+    "side": "down"
+  },
+  {
+    "id": 35985803,
+    "price": "17110.0",
+    "volume": "0.0025",
+    "funds": "42.775",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:21Z",
+    "at": 1499723121,
+    "side": "down"
+  },
+  {
+    "id": 35985802,
+    "price": "17110.01",
+    "volume": "0.0003",
+    "funds": "5.133003",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:21Z",
+    "at": 1499723121,
+    "side": "up"
+  },
+  {
+    "id": 35985801,
+    "price": "17110.01",
+    "volume": "0.952",
+    "funds": "16288.72952",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:17Z",
+    "at": 1499723117,
+    "side": "up"
+  },
+  {
+    "id": 35985797,
+    "price": "17110.01",
+    "volume": "0.0477",
+    "funds": "816.147477",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:08Z",
+    "at": 1499723108,
+    "side": "down"
+  },
+  {
+    "id": 35985796,
+    "price": "17110.02",
+    "volume": "0.0003",
+    "funds": "5.133006",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:08Z",
+    "at": 1499723108,
+    "side": "up"
+  },
+  {
+    "id": 35985794,
+    "price": "17110.02",
+    "volume": "0.048",
+    "funds": "821.28096",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:45:05Z",
+    "at": 1499723105,
+    "side": "down"
+  },
+  {
+    "id": 35985556,
+    "price": "17310.99",
+    "volume": "0.1117",
+    "funds": "1933.637583",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:42:27Z",
+    "at": 1499722947,
+    "side": "up"
+  },
+  {
+    "id": 35985552,
+    "price": "17110.0",
+    "volume": "0.0001",
+    "funds": "1.711",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:42:25Z",
+    "at": 1499722945,
+    "side": "down"
+  },
+  {
+    "id": 35985551,
+    "price": "17128.85",
+    "volume": "0.0119",
+    "funds": "203.833315",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:42:25Z",
+    "at": 1499722945,
+    "side": "up"
+  },
+  {
+    "id": 35985547,
+    "price": "17110.0",
+    "volume": "0.0558",
+    "funds": "954.738",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:42:22Z",
+    "at": 1499722942,
+    "side": "up"
+  },
+  {
+    "id": 35985546,
+    "price": "17110.0",
+    "volume": "0.071",
+    "funds": "1214.81",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:42:22Z",
+    "at": 1499722942,
+    "side": "down"
+  },
+  {
+    "id": 35985545,
+    "price": "17124.6",
+    "volume": "0.0019",
+    "funds": "32.53674",
+    "market": "btccny",
+    "created_at": "2017-07-10T21:42:22Z",
+    "at": 1499722942,
+    "side": "down"
+  }
+]

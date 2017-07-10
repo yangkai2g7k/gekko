@@ -2,6 +2,9 @@
  * Created by kaiyan2 on 7/10/17.
  */
 var Yunbi = require("yunbi-api-module");
+var _ = require('lodash');
+var moment = require('moment');
+var log = require('../core/log');
 
 var Trader = function (config) {
     _.bindAll(this);
@@ -76,7 +79,7 @@ Trader.prototype.getFee = function (callback) {
 };
 
 Trader.prototype.buy = function (amount, price, callback) {
-    this.yunbi.createOrder(this.market, "buy", amount, price, function (error, result) {
+    this.yunbi.createOrder(this.market, "buy", amount, price,{} ,function (err, result) {
         if (err || result.error)
             return log.error('unable to buy:', err, result);
         callback(null, result.id);
@@ -84,7 +87,7 @@ Trader.prototype.buy = function (amount, price, callback) {
 };
 
 Trader.prototype.sell = function (amount, price, callback) {
-    this.yunbi.createOrder(this.market, "sell", amount, price, function (error, result) {
+    this.yunbi.createOrder(this.market, "sell", amount, price, {},function (err, result) {
         if (err || result.error)
             return log.error('unable to sell:', err, result);
         callback(null, result.id);
@@ -92,16 +95,17 @@ Trader.prototype.sell = function (amount, price, callback) {
 };
 
 Trader.prototype.checkOrder = function (order, callback) {
-    this.yunbi.getOrder(order, function (error, result) {
+    this.yunbi.getOrder(order, function (err, result) {
         if (err || result.error)
             return log.error('unable to check order:', err, result);
         remainingVolume = parseFloat(result["remaining_volume"]);
-        callback(null, remainingVolume > 0);
+        callback(null, remainingVolume <= 0);
     }.bind(this));
 };
 
 Trader.prototype.cancelOrder = function (order, callback) {
     this.yunbi.cancelOrder(order, function (err, result) {
+        console.log(result);
         if (err || !result)
             log.error('unable to cancel order', order, '(', err, result, ')');
     }.bind(this));
@@ -109,14 +113,13 @@ Trader.prototype.cancelOrder = function (order, callback) {
 
 Trader.prototype.getTrades = function (since, callback, descending) {
     var options = {
-        order_by: (descending == true || descending === "desc") ? "desc" : "asce"
+        order_by: (descending == true || descending === "desc") ? "desc" : "asc"
     };
     if (since) {
         options["limit"] = 10000;
     }
 
     var args = _.toArray(arguments);
-
     this.yunbi.getTrades(this.market,options,function (err,result) {
         if(err)
             return this.retry(this.getTrades, args);
