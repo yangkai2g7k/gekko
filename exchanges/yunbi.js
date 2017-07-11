@@ -111,12 +111,17 @@ Trader.prototype.cancelOrder = function (order, callback) {
     }.bind(this));
 };
 
-Trader.prototype.getTrades = function (since, callback, descending) {
+Trader.prototype.getTrades = function (since, callback, descending, timestamp) {
     var options = {};
+
     if (since) {
         options["limit"] = 1000;
     }
 
+    if(timestamp){
+        options["timestamp"] = timestamp;
+    }
+    console.log(options);
     var args = _.toArray(arguments);
     this.yunbi.getTrades(this.market,options,function (err,result) {
         if(err)
