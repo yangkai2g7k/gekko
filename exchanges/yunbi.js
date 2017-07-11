@@ -112,11 +112,9 @@ Trader.prototype.cancelOrder = function (order, callback) {
 };
 
 Trader.prototype.getTrades = function (since, callback, descending) {
-    var options = {
-        order_by: (descending == true || descending === "desc") ? "desc" : "asc"
-    };
+    var options = {};
     if (since) {
-        options["limit"] = 10000;
+        options["limit"] = 1000;
     }
 
     var args = _.toArray(arguments);
@@ -132,7 +130,7 @@ Trader.prototype.getTrades = function (since, callback, descending) {
                 amount: t.volume
             }
         });
-        callback(null, trades);
+        callback(null, descending?trades:trades.reverse());
     }.bind(this));
 };
 
